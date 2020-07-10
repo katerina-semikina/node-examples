@@ -1,0 +1,19 @@
+{
+  "name": "node-examples",
+  "version": "1.0.0",
+  "description": "Node.js examples",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "jest --config ./jest.config.js"
+  },
+  "dependencies": {
+    "kafkajs": "^1.12.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "jest": "26.0.1",
+    "testcontainers": "^2.18.3",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.6"
+  }
+}
